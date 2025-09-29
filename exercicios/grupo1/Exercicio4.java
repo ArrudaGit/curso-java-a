@@ -1,4 +1,5 @@
 // package exercicios.grupo1;
+
 /*
  * 4.1 Algoritmo: Calcule o quadrado de um número. Pergunte o número, calcule e exiba no final o resultado.
  *  
