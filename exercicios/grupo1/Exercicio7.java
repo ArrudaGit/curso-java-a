@@ -3,7 +3,7 @@
  Calcule a área de um retângulo. Area = comprimento \* altura
  * @creator: Rodrigo Fischer (programacao.mentoria)
  */
-package exercicios.grupo1;
+// package exercicios.grupo1;
 
 import java.util.Scanner;
 
