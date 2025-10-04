@@ -1,7 +1,12 @@
 /**
- * Pergunte um número. Diga se este numero é par ou ímpar, escrevendo na tela.
- * @creator: Rodrigo Fischer (programacao.mentoria)
- */
+ * P1 3
+
+ Calcule o fatorial de um número.
+Pergunte o número, faça o loop e exiba o resultado no final. 
+
+Exemplo: Fatorial de 5 => 5 * 4 * 3 * 2 * 1 = 120
+
+*/
 package exercicios.grupo3;
 
 import java.util.Scanner;
@@ -10,22 +15,21 @@ public class Exercicio1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite um numero e descubra se é par ou ímpar: ");
-        int numero = scanner.nextInt();
-        // int restoDaDivisaoInteira = numero % 2;
+            System.out.println("Digite um número: ");
+            int numero = scanner.nextInt();
 
-        boolean isPar = numero % 2 == 0;
-        // boolean isPar = restoDaDivisaoInteira == 0;
+            int resultado = 1;
 
-        if (isPar == true) {
-            System.out.printf("O número %d é par", numero);
-        }
-        else {
-            System.out.printf("O número %d é ímpar", numero);
-        }
+            // Calculando com for porque sei quantas vezes repetir
+            for (int i =1; i <= numero; i++)
+            {
+                resultado *= i; // resultado = resultado * 1                
+            }
 
-        //ou
-        System.out.println("\nO numero " + numero + " é: " + ((isPar == true) ? "par" : "ímpar"));
-        scanner.close();
+            //Resultado
+            System.out.print("O fatorial de " + numero + " é: " + resultado);
+
+            scanner.close();
+       
     }
 }
