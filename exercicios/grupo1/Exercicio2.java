@@ -1,9 +1,9 @@
-// package exercicios.grupo1;
-
 /*
 2.1 Algoritmo: Perguntar o nome de quem está usando o programa e sua idade.
 Faça duas perguntas. 
 */
+
+package exercicios.grupo1;
 
 import java.util.Scanner;
 

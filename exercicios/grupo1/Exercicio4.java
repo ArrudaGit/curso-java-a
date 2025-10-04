@@ -1,5 +1,3 @@
-// package exercicios.grupo1;
-
 /*
  * 4.1 Algoritmo: Calcule o quadrado de um número. Pergunte o número, calcule e exiba no final o resultado.
  *  
@@ -9,8 +7,9 @@
  * @creator: Rodrigo Fischer (programacao.mentoria)
  */
 
-import java.util.Scanner;
+package exercicios.grupo1;
 
+import java.util.Scanner;
 public class Exercicio4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

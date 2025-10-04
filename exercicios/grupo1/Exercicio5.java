@@ -2,7 +2,7 @@
  * Objetivo: Calcule a área de um quadrado. Como calcular: Area = lado \* lado
  * @creator: Rodrigo Fischer (programacao.mentoria)
  */
-// package exercicios.grupo1;
+package exercicios.grupo1;
 
 import java.util.Scanner;
 

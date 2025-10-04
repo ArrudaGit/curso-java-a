@@ -1,10 +1,12 @@
 /* 
  * 6.1 Algoritmo: - Calcule a área de um círculo com base no raio informado.
                     Como calcular: A = PI . R ao quadrado. 
-                    Sem biblioteca Math. */
+                    Sem biblioteca Math. 
+*/
+
+package exercicios.grupo1;
 
 import java.util.Scanner;
-
 public class Exercicio6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

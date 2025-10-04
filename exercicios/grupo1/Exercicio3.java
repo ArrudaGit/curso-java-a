@@ -1,4 +1,3 @@
-// package exercicios.grupo1;
 /*
  * 3.1 Algoritmo: Perguntar o nome de um aluno, pergunte as 4 notas e 
  *      calcule a média aritmética(média simples), exibindo no final.
@@ -6,8 +5,9 @@
  * 
  */
 
-import java.util.Scanner;
+package exercicios.grupo1;
 
+import java.util.Scanner;
 public class Exercicio3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
