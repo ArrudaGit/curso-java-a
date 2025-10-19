@@ -1,27 +1,27 @@
-package exercicios.grupo2;
+// package exercicios.grupo2;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class ExercicioX {
-    public static void main(String[] args) {
-        int i = 0;
-        while (i < 10) {
-            System.out.println("i: " + i++);
-        }
+// public class ExercicioX {
+//     public static void main(String[] args) {
+//         int i = 0;
+//         while (i < 10) {
+//             System.out.println("i: " + i++);
+//         }
         
-        int menu = 0;
-        Scanner scanner = new Scanner(System.in);
-        int numero = 0;
-        while (true) {
-            if (numero % 2 == 0) {
-                System.out.println("O numero: " + numero++ + " é par");
-            }
-            // numero++;
-            if(numero == 100)
-                break;
+//         int menu = 0;
+//         Scanner scanner = new Scanner(System.in);
+//         int numero = 0;
+//         while (true) {
+//             if (numero % 2 == 0) {
+//                 System.out.println("O numero: " + numero++ + " é par");
+//             }
+//             numero++;
+//             if(numero == 100)
+//                 break;
             // break;
             // continue;
-        }
+       // }
 
         // do{
         //     System.out.println("Digite uma opcao: ");
@@ -30,6 +30,6 @@ public class ExercicioX {
         //     System.out.println("3 - Sair do programa");
         //     menu = scanner.nextInt();
         //     System.out.println("Opcao selecionada: " + menu);
-        // } while (menu != 3);
-    }
-}
+// }
+// }        // } while (menu != 3);
+    
