@@ -7,7 +7,7 @@ package exercicios.grupo3_1;
 
 import java.util.Scanner;
 
-public class Exercicio7 {
+public class Exercicio07 {
     private static final String SENHA_SECRETA = "secreta123";
 
     public static boolean isSenhaValida(String senha) {

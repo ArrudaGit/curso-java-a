@@ -5,7 +5,7 @@
 
 package exercicios.grupo3_1;
 
-public class Exercicio1 {
+public class Exercicio01 {
     public static void main(String[] args) 
     {
         for (int numero = 1; numero <= 100; numero++)

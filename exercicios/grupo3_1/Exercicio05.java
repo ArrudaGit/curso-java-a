@@ -6,7 +6,7 @@ package exercicios.grupo3_1;
 
 import java.util.Scanner;
 
-public class Exercicio5 {
+public class Exercicio05 {
 
     public static void criarTabuadaPorNumero(int numeroTabuada) {
         System.out.println("*********************************");

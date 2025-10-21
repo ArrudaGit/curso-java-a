@@ -5,7 +5,7 @@ inteiros de 50 a 1, em ordem decrescente.
 
 package exercicios.grupo3_1;
 
-public class Exercicio2 {
+public class Exercicio02 {
     public static void main(String[] args) 
     {
         for (int numero = 50; numero >= 0; numero--)
