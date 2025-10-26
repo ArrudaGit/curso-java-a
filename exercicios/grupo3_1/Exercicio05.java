@@ -1,6 +1,7 @@
 /**
- * Tabuada de um Número: Peça ao usuário para digitar um número inteiro e, em seguida, imprima a tabuada desse número (de 1 a 10).
- * @author Rodrigo Fischer (programacao.mentoria)
+ * Tabuada de um Número: Peça ao usuário para digitar um número inteiro e, em seguida, 
+ * imprima a tabuada desse número (de 1 a 10).
+ 
  */
 package exercicios.grupo3_1;
 
