@@ -18,7 +18,7 @@ public class Exercicio1 {
             System.out.println("Digite um número: ");
             int numero = scanner.nextInt();
 
-            int resultado = 1;
+            long resultado = 1; // usei long em vez de int para não estourar (erro de overflow)
 
             // Calculando com for porque sei quantas vezes repetir
             for (int i =1; i <= numero; i++)
